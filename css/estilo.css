@@ -1,0 +1,83 @@
+    p{ /* CSS para um estilo natiivo "p", pois P é nativo do html*/
+        color: blue;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        
+    }
+
+    body{
+        background-color: rgb(236, 233, 233);
+        /*background-image: url(../imagem/fundo.png);*/ /* Forma para colocar imagem de fundo*/
+    }
+
+    .menu{/* usado para criar um estilo css para uma classe chamada "menu"*/
+        color: rgb(65, 115, 209);
+        font-size: 12px;
+        font-family: geneva;
+        font-weight: bold;
+    }
+
+    .lista{/*  usado para criar um estilo css para uma classe chamada "lista"*/
+        color:rgb(141, 60, 6);
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    label{
+        font-weight: bold;
+        color: red;
+        font-size: 12px;
+    }
+
+    span{
+        font-weight: bold;
+        color: red;
+        font-size: 12px;
+    }
+
+    #form_contato{ /* usado para criar um estilo (css) para um objeto (form_contato é um ovjetoque criamos para formulario)*/
+        background-color: rgb(209, 207, 207);
+    }
+
+    .campo_nome{
+        position: absolute;
+        left: 80px;
+        background-color: yellow;
+        
+    }
+
+    .campo_email{
+        position: absolute;
+        left: 80px;
+        background-color: yellow;
+       
+    }
+
+    .campo_senha{
+        position: absolute;
+        left: 80px;
+        background-color: yellow;
+    }
+
+    .container{
+        border: 3px solid red;
+        width: 500px;
+    }
+
+    .div1{
+        background-color: yellow;
+    }
+
+    .div2{
+        background-color:green;
+    }
+
+    .div3{
+        background-color: rgb(91, 106, 248);
+    }
+
+    .div4{
+        background-color: rgb(228, 99, 87);
+    }
